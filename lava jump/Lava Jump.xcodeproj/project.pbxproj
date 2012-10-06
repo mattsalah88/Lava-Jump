@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		027F905E15EFD8F2003FFFEA /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F905D15EFD8F2003FFFEA /* Store.m */; };
+		02F1699215EE971D0074DC4E /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F1699115EE971D0074DC4E /* ViewController4.m */; };
+		02F1699715EEAC3A0074DC4E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02F1699615EEAC3A0074DC4E /* Default@2x.png */; };
+		02F38D6315ED5BC5001C4E4B /* lava.png in Resources */ = {isa = PBXBuildFile; fileRef = 02F38D6215ED5BC5001C4E4B /* lava.png */; };
+		3F3450B615DD5FD400ED2D3A /* blue block.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3450B515DD5FD400ED2D3A /* blue block.png */; };
+		3F7E145B15DB013A0034619A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7E145A15DB013A0034619A /* UIKit.framework */; };
+		3F7E145D15DB013A0034619A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7E145C15DB013A0034619A /* Foundation.framework */; };
+		3F7E145F15DB013A0034619A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7E145E15DB013A0034619A /* CoreGraphics.framework */; };
+		3F7E146515DB013A0034619A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F7E146315DB013A0034619A /* InfoPlist.strings */; };
+		3F7E146715DB013A0034619A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7E146615DB013A0034619A /* main.m */; };
+		3F7E146B15DB013A0034619A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7E146A15DB013A0034619A /* AppDelegate.m */; };
+		3F7E146E15DB013A0034619A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7E146C15DB013A0034619A /* MainStoryboard.storyboard */; };
+		3F7E147115DB013A0034619A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7E147015DB013A0034619A /* ViewController.m */; };
+		3F7E147915DB013B0034619A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7E147815DB013B0034619A /* SenTestingKit.framework */; };
+		3F7E147A15DB013B0034619A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7E145A15DB013A0034619A /* UIKit.framework */; };
+		3F7E147B15DB013B0034619A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7E145C15DB013A0034619A /* Foundation.framework */; };
+		3F7E148315DB013B0034619A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F7E148115DB013B0034619A /* InfoPlist.strings */; };
+		3F7E148615DB013B0034619A /* AvalancheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7E148515DB013B0034619A /* AvalancheTests.m */; };
+		3F8F7B2015DEA85E0085536A /* yellow_block.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8F7B1F15DEA85E0085536A /* yellow_block.png */; };
+		3F8F7B2215DEB4860085536A /* green block.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8F7B2115DEB4860085536A /* green block.png */; };
+		3FCB2C3715DC04D00006DDD1 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB2C3515DC04D00006DDD1 /* ViewController2.m */; };
+		3FFB1D5915DC5ECD002DE5AD /* Screen Shot 2012-08-15 at 3.48.10 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB1D5815DC5ECD002DE5AD /* Screen Shot 2012-08-15 at 3.48.10 PM.png */; };
+		3FFB1D5B15DC5FC0002DE5AD /* Screen Shot 2012-08-15 at 3.52.20 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB1D5A15DC5FC0002DE5AD /* Screen Shot 2012-08-15 at 3.52.20 PM.png */; };
+		3FFB1D5D15DC5FC7002DE5AD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB1D5C15DC5FC7002DE5AD /* Default.png */; };
+		5F45421F1611560600418F2D /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F45421E1611560600418F2D /* ground.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F7E147C15DB013B0034619A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F7E144D15DB013A0034619A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7E145515DB013A0034619A;
+			remoteInfo = Avalanche;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027F905C15EFD8F2003FFFEA /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		027F905D15EFD8F2003FFFEA /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		02F1699015EE971D0074DC4E /* ViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
+		02F1699115EE971D0074DC4E /* ViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
+		02F1699615EEAC3A0074DC4E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		02F38D6215ED5BC5001C4E4B /* lava.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lava.png; sourceTree = "<group>"; };
+		3F3450B515DD5FD400ED2D3A /* blue block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue block.png"; sourceTree = "<group>"; };
+		3F7E145615DB013A0034619A /* Lava Jump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lava Jump.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7E145A15DB013A0034619A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F7E145C15DB013A0034619A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F7E145E15DB013A0034619A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F7E146215DB013A0034619A /* Lava Jump-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lava Jump-Info.plist"; sourceTree = "<group>"; };
+		3F7E146415DB013A0034619A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F7E146615DB013A0034619A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F7E146815DB013A0034619A /* Lava Jump-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lava Jump-Prefix.pch"; sourceTree = "<group>"; };
+		3F7E146915DB013A0034619A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F7E146A15DB013A0034619A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F7E146D15DB013A0034619A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3F7E146F15DB013A0034619A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F7E147015DB013A0034619A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F7E147715DB013B0034619A /* Lava JumpTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lava JumpTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7E147815DB013B0034619A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3F7E148015DB013B0034619A /* Lava JumpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lava JumpTests-Info.plist"; sourceTree = "<group>"; };
+		3F7E148215DB013B0034619A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F7E148415DB013B0034619A /* AvalancheTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvalancheTests.h; sourceTree = "<group>"; };
+		3F7E148515DB013B0034619A /* AvalancheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvalancheTests.m; sourceTree = "<group>"; };
+		3F8F7B1F15DEA85E0085536A /* yellow_block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow_block.png; sourceTree = "<group>"; };
+		3F8F7B2115DEB4860085536A /* green block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green block.png"; sourceTree = "<group>"; };
+		3FCB2C3415DC04D00006DDD1 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		3FCB2C3515DC04D00006DDD1 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		3FFB1D5815DC5ECD002DE5AD /* Screen Shot 2012-08-15 at 3.48.10 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2012-08-15 at 3.48.10 PM.png"; sourceTree = "<group>"; };
+		3FFB1D5A15DC5FC0002DE5AD /* Screen Shot 2012-08-15 at 3.52.20 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2012-08-15 at 3.52.20 PM.png"; sourceTree = "<group>"; };
+		3FFB1D5C15DC5FC7002DE5AD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5F45421E1611560600418F2D /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F7E145315DB013A0034619A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7E145B15DB013A0034619A /* UIKit.framework in Frameworks */,
+				3F7E145D15DB013A0034619A /* Foundation.framework in Frameworks */,
+				3F7E145F15DB013A0034619A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7E147315DB013B0034619A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7E147915DB013B0034619A /* SenTestingKit.framework in Frameworks */,
+				3F7E147A15DB013B0034619A /* UIKit.framework in Frameworks */,
+				3F7E147B15DB013B0034619A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7E144B15DB013A0034619A = {
+			isa = PBXGroup;
+			children = (
+				02F1699615EEAC3A0074DC4E /* Default@2x.png */,
+				3FFB1D5C15DC5FC7002DE5AD /* Default.png */,
+				3FFB1D5A15DC5FC0002DE5AD /* Screen Shot 2012-08-15 at 3.52.20 PM.png */,
+				3FFB1D5815DC5ECD002DE5AD /* Screen Shot 2012-08-15 at 3.48.10 PM.png */,
+				3F7E146015DB013A0034619A /* Avalanche */,
+				3F7E147E15DB013B0034619A /* AvalancheTests */,
+				3F7E145915DB013A0034619A /* Frameworks */,
+				3F7E145715DB013A0034619A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F7E145715DB013A0034619A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F7E145615DB013A0034619A /* Lava Jump.app */,
+				3F7E147715DB013B0034619A /* Lava JumpTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F7E145915DB013A0034619A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F7E145A15DB013A0034619A /* UIKit.framework */,
+				3F7E145C15DB013A0034619A /* Foundation.framework */,
+				3F7E145E15DB013A0034619A /* CoreGraphics.framework */,
+				3F7E147815DB013B0034619A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F7E146015DB013A0034619A /* Avalanche */ = {
+			isa = PBXGroup;
+			children = (
+				027F905C15EFD8F2003FFFEA /* Store.h */,
+				027F905D15EFD8F2003FFFEA /* Store.m */,
+				5F45421E1611560600418F2D /* ground.png */,
+				02F38D6215ED5BC5001C4E4B /* lava.png */,
+				3F8F7B2115DEB4860085536A /* green block.png */,
+				3F8F7B1F15DEA85E0085536A /* yellow_block.png */,
+				3F3450B515DD5FD400ED2D3A /* blue block.png */,
+				3F7E146915DB013A0034619A /* AppDelegate.h */,
+				3F7E146A15DB013A0034619A /* AppDelegate.m */,
+				3FCB2C3415DC04D00006DDD1 /* ViewController2.h */,
+				3FCB2C3515DC04D00006DDD1 /* ViewController2.m */,
+				3F7E146C15DB013A0034619A /* MainStoryboard.storyboard */,
+				02F1699015EE971D0074DC4E /* ViewController4.h */,
+				02F1699115EE971D0074DC4E /* ViewController4.m */,
+				3F7E146F15DB013A0034619A /* ViewController.h */,
+				3F7E147015DB013A0034619A /* ViewController.m */,
+				3F7E146115DB013A0034619A /* Supporting Files */,
+			);
+			path = Avalanche;
+			sourceTree = "<group>";
+		};
+		3F7E146115DB013A0034619A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F7E146215DB013A0034619A /* Lava Jump-Info.plist */,
+				3F7E146315DB013A0034619A /* InfoPlist.strings */,
+				3F7E146615DB013A0034619A /* main.m */,
+				3F7E146815DB013A0034619A /* Lava Jump-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F7E147E15DB013B0034619A /* AvalancheTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F7E148415DB013B0034619A /* AvalancheTests.h */,
+				3F7E148515DB013B0034619A /* AvalancheTests.m */,
+				3F7E147F15DB013B0034619A /* Supporting Files */,
+			);
+			path = AvalancheTests;
+			sourceTree = "<group>";
+		};
+		3F7E147F15DB013B0034619A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F7E148015DB013B0034619A /* Lava JumpTests-Info.plist */,
+				3F7E148115DB013B0034619A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F7E145515DB013A0034619A /* Lava Jump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7E148915DB013B0034619A /* Build configuration list for PBXNativeTarget "Lava Jump" */;
+			buildPhases = (
+				3F7E145215DB013A0034619A /* Sources */,
+				3F7E145315DB013A0034619A /* Frameworks */,
+				3F7E145415DB013A0034619A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lava Jump";
+			productName = Avalanche;
+			productReference = 3F7E145615DB013A0034619A /* Lava Jump.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F7E147615DB013B0034619A /* Lava JumpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7E148C15DB013B0034619A /* Build configuration list for PBXNativeTarget "Lava JumpTests" */;
+			buildPhases = (
+				3F7E147215DB013B0034619A /* Sources */,
+				3F7E147315DB013B0034619A /* Frameworks */,
+				3F7E147415DB013B0034619A /* Resources */,
+				3F7E147515DB013B0034619A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F7E147D15DB013B0034619A /* PBXTargetDependency */,
+			);
+			name = "Lava JumpTests";
+			productName = AvalancheTests;
+			productReference = 3F7E147715DB013B0034619A /* Lava JumpTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F7E144D15DB013A0034619A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3F7E145015DB013A0034619A /* Build configuration list for PBXProject "Lava Jump" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F7E144B15DB013A0034619A;
+			productRefGroup = 3F7E145715DB013A0034619A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F7E145515DB013A0034619A /* Lava Jump */,
+				3F7E147615DB013B0034619A /* Lava JumpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F7E145415DB013A0034619A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7E146515DB013A0034619A /* InfoPlist.strings in Resources */,
+				3F7E146E15DB013A0034619A /* MainStoryboard.storyboard in Resources */,
+				3FFB1D5915DC5ECD002DE5AD /* Screen Shot 2012-08-15 at 3.48.10 PM.png in Resources */,
+				3FFB1D5B15DC5FC0002DE5AD /* Screen Shot 2012-08-15 at 3.52.20 PM.png in Resources */,
+				3FFB1D5D15DC5FC7002DE5AD /* Default.png in Resources */,
+				3F3450B615DD5FD400ED2D3A /* blue block.png in Resources */,
+				3F8F7B2015DEA85E0085536A /* yellow_block.png in Resources */,
+				3F8F7B2215DEB4860085536A /* green block.png in Resources */,
+				02F38D6315ED5BC5001C4E4B /* lava.png in Resources */,
+				02F1699715EEAC3A0074DC4E /* Default@2x.png in Resources */,
+				5F45421F1611560600418F2D /* ground.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7E147415DB013B0034619A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7E148315DB013B0034619A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F7E147515DB013B0034619A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F7E145215DB013A0034619A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7E146715DB013A0034619A /* main.m in Sources */,
+				3F7E146B15DB013A0034619A /* AppDelegate.m in Sources */,
+				3F7E147115DB013A0034619A /* ViewController.m in Sources */,
+				3FCB2C3715DC04D00006DDD1 /* ViewController2.m in Sources */,
+				02F1699215EE971D0074DC4E /* ViewController4.m in Sources */,
+				027F905E15EFD8F2003FFFEA /* Store.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7E147215DB013B0034619A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7E148615DB013B0034619A /* AvalancheTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F7E147D15DB013B0034619A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F7E145515DB013A0034619A /* Lava Jump */;
+			targetProxy = 3F7E147C15DB013B0034619A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F7E146315DB013A0034619A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7E146415DB013A0034619A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F7E146C15DB013A0034619A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7E146D15DB013A0034619A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		3F7E148115DB013B0034619A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7E148215DB013B0034619A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F7E148715DB013B0034619A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F7E148815DB013B0034619A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F7E148A15DB013B0034619A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Avalanche/Lava Jump-Prefix.pch";
+				INFOPLIST_FILE = "Avalanche/Lava Jump-Info.plist";
+				PRODUCT_NAME = "Lava Jump";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F7E148B15DB013B0034619A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Avalanche/Lava Jump-Prefix.pch";
+				INFOPLIST_FILE = "Avalanche/Lava Jump-Info.plist";
+				PRODUCT_NAME = "Lava Jump";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3F7E148D15DB013B0034619A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Avalanche.app/Avalanche";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Avalanche/Avalanche-Prefix.pch";
+				INFOPLIST_FILE = "AvalancheTests/Lava JumpTests-Info.plist";
+				PRODUCT_NAME = "Lava JumpTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3F7E148E15DB013B0034619A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Avalanche.app/Avalanche";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Avalanche/Avalanche-Prefix.pch";
+				INFOPLIST_FILE = "AvalancheTests/Lava JumpTests-Info.plist";
+				PRODUCT_NAME = "Lava JumpTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F7E145015DB013A0034619A /* Build configuration list for PBXProject "Lava Jump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7E148715DB013B0034619A /* Debug */,
+				3F7E148815DB013B0034619A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7E148915DB013B0034619A /* Build configuration list for PBXNativeTarget "Lava Jump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7E148A15DB013B0034619A /* Debug */,
+				3F7E148B15DB013B0034619A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7E148C15DB013B0034619A /* Build configuration list for PBXNativeTarget "Lava JumpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7E148D15DB013B0034619A /* Debug */,
+				3F7E148E15DB013B0034619A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F7E144D15DB013A0034619A /* Project object */;
+}
