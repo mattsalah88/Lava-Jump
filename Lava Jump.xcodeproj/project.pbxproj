@@ -32,6 +32,8 @@
 		3FFB1D5B15DC5FC0002DE5AD /* Screen Shot 2012-08-15 at 3.52.20 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB1D5A15DC5FC0002DE5AD /* Screen Shot 2012-08-15 at 3.52.20 PM.png */; };
 		3FFB1D5D15DC5FC7002DE5AD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB1D5C15DC5FC7002DE5AD /* Default.png */; };
 		5F45421F1611560600418F2D /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F45421E1611560600418F2D /* ground.png */; };
+		5FC347C41633518F00B1EE36 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC347C31633518F00B1EE36 /* AVFoundation.framework */; };
+		5FC347D11635994E00B1EE36 /* background_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5FC347D01635994E00B1EE36 /* background_music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,8 @@
 		3FFB1D5A15DC5FC0002DE5AD /* Screen Shot 2012-08-15 at 3.52.20 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2012-08-15 at 3.52.20 PM.png"; sourceTree = "<group>"; };
 		3FFB1D5C15DC5FC7002DE5AD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5F45421E1611560600418F2D /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground.png; sourceTree = "<group>"; };
+		5FC347C31633518F00B1EE36 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5FC347D01635994E00B1EE36 /* background_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background_music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FC347C41633518F00B1EE36 /* AVFoundation.framework in Frameworks */,
 				3F7E145B15DB013A0034619A /* UIKit.framework in Frameworks */,
 				3F7E145D15DB013A0034619A /* Foundation.framework in Frameworks */,
 				3F7E145F15DB013A0034619A /* CoreGraphics.framework in Frameworks */,
@@ -108,6 +113,7 @@
 		3F7E144B15DB013A0034619A = {
 			isa = PBXGroup;
 			children = (
+				5FC347C31633518F00B1EE36 /* AVFoundation.framework */,
 				02F1699615EEAC3A0074DC4E /* Default@2x.png */,
 				3FFB1D5C15DC5FC7002DE5AD /* Default.png */,
 				3FFB1D5A15DC5FC0002DE5AD /* Screen Shot 2012-08-15 at 3.52.20 PM.png */,
@@ -143,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				027F905C15EFD8F2003FFFEA /* Store.h */,
+				5FC347D01635994E00B1EE36 /* background_music.mp3 */,
 				027F905D15EFD8F2003FFFEA /* Store.m */,
 				5F45421E1611560600418F2D /* ground.png */,
 				02F38D6215ED5BC5001C4E4B /* lava.png */,
@@ -274,6 +281,7 @@
 				02F38D6315ED5BC5001C4E4B /* lava.png in Resources */,
 				02F1699715EEAC3A0074DC4E /* Default@2x.png in Resources */,
 				5F45421F1611560600418F2D /* ground.png in Resources */,
+				5FC347D11635994E00B1EE36 /* background_music.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
